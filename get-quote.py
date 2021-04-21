@@ -2,10 +2,10 @@ def get_quotes():
    print("Keep it logically awesome.")
 
   f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes)
 
 if __name__== "__main__":
   get_quotes()
